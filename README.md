@@ -5,7 +5,7 @@
   <a href="https://www.linkedin.com/in/moiz-khan-jadoon-62620a210/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000000" /></a>
   <a href="https://www.upwork.com/freelancers/~01c3656cbb4b14d090"><img src="https://img.shields.io/badge/Upwork-5.0%20%E2%98%85-14A800?style=for-the-badge&logo=upwork&logoColor=white&labelColor=000000" /></a>
   <a href="mailto:kmuizz319@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20hi-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=000000" /></a>
-  <img src="https://komarev.com/ghpvc/?username=Muizz12&label=Profile%20views&color=1F6FEB&style=for-the-badge" />
+  <br /><img src="https://visitor-badge.laobi.icu/badge?page_id=Muizz12.Muizz12&left_text=profile%20views&left_color=black&right_color=%231F6FEB" />
 </p>
 
 ### `$ whoami`
