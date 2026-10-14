@@ -1,48 +1,220 @@
-      <svg
-        width="854"
-        height="200"
-        xmlns="http://www.w3.org/2000/svg"
-        xmlns:xlink="http://www.w3.org/1999/xlink"
-        style="z-index:1;position:relative"
-        viewBox="0 0 854 200"
-      >
-        <style>
-      .text {   font-size: 52px;   font-weight: 700;   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;  } .desc {   font-size: 18px;   font-weight: 500;   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;  } 
-      .text, .desc {   animation: fadeIn 1.2s ease-in-out forwards;  } @keyframes fadeIn {   from {     opacity: 0;   }   to {     opacity: 1;   }  } 
-    </style>
-        <defs>
-              <linearGradient id="linear" x1="0%" y1="0%" x2="100%" y2="0%">
-                <stop offset="0%" stop-color="#000000"/><stop offset="100%" stop-color="#1F6FEB"/>
-              </linearGradient>
-            </defs>
-        
-      <g transform="translate(427, 100) scale(1, 1) translate(-427, -100)">
-        <path d="" fill="url(#linear)" opacity="0.4" >
-          <animate
-              attributeName="d"
-              dur="20s"
-              repeatCount="indefinite"
-              keyTimes="0;0.333;0.667;1"
-              calcmod="spline"
-              keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1"
-              begin="0s"
-              values="M0 0L 0 120Q 213.5 160 427 130T 854 155L 854 0 Z;M0 0L 0 145Q 213.5 160 427 140T 854 130L 854 0 Z;M0 0L 0 165Q 213.5 135 427 165T 854 130L 854 0 Z;M0 0L 0 120Q 213.5 160 427 130T 854 155L 854 0 Z">
-          </animate>
-        </path>
-        <path d="" fill="url(#linear)" opacity="0.4" >
-          <animate
-            attributeName="d"
-            dur="20s"
-            repeatCount="indefinite"
-            keyTimes="0;0.333;0.667;1"
-            calcmod="spline"
-            keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1"
-            begin="-10s"
-            values="M0 0L 0 135Q 213.5 180 427 150T 854 160L 854 0 Z;M0 0L 0 150Q 213.5 120 427 120T 854 140L 854 0 Z;M0 0L 0 145Q 213.5 125 427 150T 854 165L 854 0 Z;M0 0L 0 135Q 213.5 180 427 150T 854 160L 854 0 Z">
-          </animate>
-        </path>
-      </g>
-         <text text-anchor="middle" dominant-baseline="middle" x="50%" y="38%" class="text" style="fill:#FFFFFF;" stroke="#none" stroke-width="1" >Moiz Khan</text>
-        <text text-anchor="middle" dominant-baseline="middle" x="50%" y="58%" class="desc" style="fill:#FFFFFF;">Lead Full-Stack &amp; AI MVP Engineer</text>
-      </svg>
-    
+<svg
+  width="100%"
+  viewBox="0 0 900 240"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090D16"/>
+      <stop offset="50%" stop-color="#0B132B"/>
+      <stop offset="100%" stop-color="#070A12"/>
+    </linearGradient>
+
+    <!-- Border Glow Gradient -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1F6FEB" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#58A6FF" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0.6"/>
+    </linearGradient>
+
+    <!-- Name Text Gradient -->
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58A6FF"/>
+      <stop offset="40%" stop-color="#38BDF8"/>
+      <stop offset="70%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#C084FC"/>
+    </linearGradient>
+
+    <!-- Wave Gradient -->
+    <linearGradient id="waveGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1F6FEB" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#6366F1" stop-opacity="0.25"/>
+    </linearGradient>
+    <linearGradient id="waveGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#1F6FEB" stop-opacity="0.3"/>
+    </linearGradient>
+
+    <!-- Radial Glows -->
+    <radialGradient id="glowTop" cx="50%" cy="0%" r="60%">
+      <stop offset="0%" stop-color="#1F6FEB" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#0B132B" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Subtle Grid Pattern -->
+    <pattern id="headerGrid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#1E293B" stroke-width="0.7" stroke-opacity="0.45"/>
+      <circle cx="28" cy="0" r="0.8" fill="#38BDF8" fill-opacity="0.4"/>
+    </pattern>
+
+    <filter id="glowFilter" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.4; transform: scale(0.9); }
+    }
+    @keyframes waveMove1 {
+      0% { d: path("M0 200 Q 225 180, 450 205 T 900 195 L 900 240 L 0 240 Z"); }
+      50% { d: path("M0 205 Q 225 220, 450 190 T 900 210 L 900 240 L 0 240 Z"); }
+      100% { d: path("M0 200 Q 225 180, 450 205 T 900 195 L 900 240 L 0 240 Z"); }
+    }
+    @keyframes waveMove2 {
+      0% { d: path("M0 210 Q 225 225, 450 200 T 900 215 L 900 240 L 0 240 Z"); }
+      50% { d: path("M0 195 Q 225 175, 450 210 T 900 195 L 900 240 L 0 240 Z"); }
+      100% { d: path("M0 210 Q 225 225, 450 200 T 900 215 L 900 240 L 0 240 Z"); }
+    }
+    .pulse-dot {
+      animation: pulse 2s infinite ease-in-out;
+      transform-origin: 450px 33px;
+    }
+    .font-sans {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    }
+    .font-mono {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace;
+    }
+  </style>
+
+  <!-- Card Background -->
+  <rect width="900" height="240" rx="16" fill="url(#bgGrad)"/>
+  
+  <!-- Subtle Grid Overlay -->
+  <rect width="900" height="240" rx="16" fill="url(#headerGrid)"/>
+
+  <!-- Radial Top Center Glow -->
+  <rect width="900" height="240" rx="16" fill="url(#glowTop)"/>
+
+  <!-- Border Card -->
+  <rect x="0.75" y="0.75" width="898.5" height="238.5" rx="15.25" fill="none" stroke="url(#borderGrad)" stroke-width="1.5"/>
+
+  <!-- Animated Ambient Waves at Bottom -->
+  <path fill="url(#waveGrad1)">
+    <animate
+      attributeName="d"
+      dur="12s"
+      repeatCount="indefinite"
+      values="
+        M0 210 Q 225 185, 450 210 T 900 200 L 900 240 L 0 240 Z;
+        M0 215 Q 225 230, 450 195 T 900 215 L 900 240 L 0 240 Z;
+        M0 200 Q 225 190, 450 215 T 900 205 L 900 240 L 0 240 Z;
+        M0 210 Q 225 185, 450 210 T 900 200 L 900 240 L 0 240 Z
+      "
+    />
+  </path>
+  <path fill="url(#waveGrad2)">
+    <animate
+      attributeName="d"
+      dur="16s"
+      repeatCount="indefinite"
+      values="
+        M0 218 Q 225 230, 450 205 T 900 220 L 900 240 L 0 240 Z;
+        M0 205 Q 225 185, 450 220 T 900 205 L 900 240 L 0 240 Z;
+        M0 218 Q 225 230, 450 205 T 900 220 L 900 240 L 0 240 Z
+      "
+    />
+  </path>
+
+  <!-- Status Pill Badge (Top Center) -->
+  <g transform="translate(325, 20)">
+    <rect width="250" height="26" rx="13" fill="#0D1527" stroke="#1F6FEB" stroke-width="1" stroke-opacity="0.8"/>
+    <circle cx="16" cy="13" r="4.5" fill="#10B981" class="pulse-dot"/>
+    <circle cx="16" cy="13" r="8" fill="#10B981" fill-opacity="0.2"/>
+    <text x="30" y="17" fill="#38BDF8" class="font-mono" font-size="11" font-weight="600" letter-spacing="1">AVAILABLE FOR NEW PROJECTS</text>
+  </g>
+
+  <!-- Terminal decoration (top-left) -->
+  <g transform="translate(24, 22)">
+    <circle cx="6" cy="6" r="4.5" fill="#EF4444" opacity="0.8"/>
+    <circle cx="20" cy="6" r="4.5" fill="#F59E0B" opacity="0.8"/>
+    <circle cx="34" cy="6" r="4.5" fill="#10B981" opacity="0.8"/>
+  </g>
+
+  <!-- Top-right terminal prompt tag -->
+  <g transform="translate(770, 20)">
+    <text x="0" y="17" fill="#64748B" class="font-mono" font-size="11">~/muizz12 $</text>
+  </g>
+
+  <!-- Hero Name Header -->
+  <text
+    x="450"
+    y="105"
+    text-anchor="middle"
+    class="font-sans"
+    font-size="46"
+    font-weight="800"
+    letter-spacing="-0.5"
+    fill="url(#titleGrad)"
+    filter="url(#glowFilter)"
+  >
+    MOIZ KHAN
+  </text>
+
+  <!-- Professional Subtitle -->
+  <text
+    x="450"
+    y="142"
+    text-anchor="middle"
+    class="font-sans"
+    font-size="17"
+    font-weight="600"
+    fill="#E2E8F0"
+    letter-spacing="0.2"
+  >
+    Lead Full-Stack &amp; AI MVP Engineer
+  </text>
+
+  <text
+    x="450"
+    y="166"
+    text-anchor="middle"
+    class="font-sans"
+    font-size="13.5"
+    font-weight="400"
+    fill="#94A3B8"
+  >
+    Architecting Scalable React Native &amp; Next.js Systems • Shipping AI MVPs 0 to 1
+  </text>
+
+  <!-- Tech Capsule Pills Row -->
+  <g transform="translate(130, 185)">
+    <!-- Pill 1: React Native -->
+    <g transform="translate(0, 0)">
+      <rect width="112" height="24" rx="6" fill="#0E172A" stroke="#38BDF8" stroke-width="0.8" stroke-opacity="0.5"/>
+      <text x="56" y="16" text-anchor="middle" class="font-mono" font-size="11" font-weight="600" fill="#38BDF8">React Native</text>
+    </g>
+
+    <!-- Pill 2: Next.js -->
+    <g transform="translate(122, 0)">
+      <rect width="86" height="24" rx="6" fill="#0E172A" stroke="#94A3B8" stroke-width="0.8" stroke-opacity="0.5"/>
+      <text x="43" y="16" text-anchor="middle" class="font-mono" font-size="11" font-weight="600" fill="#F8FAFC">Next.js</text>
+    </g>
+
+    <!-- Pill 3: FastAPI & Python -->
+    <g transform="translate(218, 0)">
+      <rect width="130" height="24" rx="6" fill="#0E172A" stroke="#10B981" stroke-width="0.8" stroke-opacity="0.5"/>
+      <text x="65" y="16" text-anchor="middle" class="font-mono" font-size="11" font-weight="600" fill="#34D399">FastAPI &amp; Python</text>
+    </g>
+
+    <!-- Pill 4: LLMs & Agents -->
+    <g transform="translate(358, 0)">
+      <rect width="138" height="24" rx="6" fill="#0E172A" stroke="#818CF8" stroke-width="0.8" stroke-opacity="0.5"/>
+      <text x="69" y="16" text-anchor="middle" class="font-mono" font-size="11" font-weight="600" fill="#A5B4FC">LLMs &amp; AI Agents</text>
+    </g>
+
+    <!-- Pill 5: Stripe & Scale -->
+    <g transform="translate(506, 0)">
+      <rect width="134" height="24" rx="6" fill="#0E172A" stroke="#F43F5E" stroke-width="0.8" stroke-opacity="0.5"/>
+      <text x="67" y="16" text-anchor="middle" class="font-mono" font-size="11" font-weight="600" fill="#FDA4AF">Stripe &amp; Supabase</text>
+    </g>
+  </g>
+</svg>
