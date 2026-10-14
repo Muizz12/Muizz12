@@ -54,7 +54,7 @@ const moiz = {
 
 <p>
   <img src="https://streak-stats.demolab.com?user=Muizz12&hide_border=true&background=000000&stroke=1F6FEB&ring=1F6FEB&fire=1F6FEB&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=1F6FEB&sideLabels=8B949E&dates=8B949E" width="58%" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Muizz12&theme=github_dark" width="40%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Muizz12&theme=github_dark&exclude=kotlin" width="40%" />
 </p>
 
 <img src="./assets/footer.svg" width="100%" />
