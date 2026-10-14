@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:1F6FEB&height=200&section=header&text=Moiz%20Khan&fontColor=FFFFFF&fontSize=52&fontAlignY=38&desc=Lead%20Full-Stack%20%26%20AI%20MVP%20Engineer&descSize=18&descAlignY=58" width="100%" />
+<img src="./assets/header.svg" width="100%" />
 
 <p>
   <a href="https://themoiz.com"><img src="https://img.shields.io/badge/Portfolio-theMoiz.com-1F6FEB?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=000000" /></a>
@@ -57,4 +57,4 @@ const moiz = {
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Muizz12&theme=github_dark" width="40%" />
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1F6FEB,100:000000&height=100&section=footer" width="100%" />
+<img src="./assets/footer.svg" width="100%" />
